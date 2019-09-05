@@ -39,9 +39,9 @@ $(document).ready(function() {
   ],
   eventRender: function(event, element, view) {
             element.qtip({
-                content: '<b>' + event.title + '</b>' + '<br />' + event.additional_info + '<br />' + 'Owner: ' + event.owner + '<br />' + event.url,
+                content: '<b>' + event.title + '</b>' + '<br />' + event.description + '<br />'  + event.url,
                 style: {
-                     classes: 'qtip-white qtip-shadow'
+                     classes: 'qtip-blue qtip-shadow'
                 }, 
 hide: {
         fixed: true
